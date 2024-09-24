@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pet Shop - Página Inicial</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo">
+            <img src="download99.png" alt="Logo do Pet Shop FELIZ" />
+        </a>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="nav-button">Home</a></li>
+                <li><a href="sobre.html" class="nav-button">Sobre</a></li>
+                <li><a href="servicos.html" class="nav-button">Serviços</a></li>
+                <li><a href="produtos.html" class="nav-button">Produtos</a></li>
+                <li><a href="contato.html" class="nav-button">Contato</a></li>
+                <li><a href="depoimentos.html" class="nav-button">Feedback</a></li>
+                <li><a href="carrinho.html" class="nav-button">Carrinho</a></li>
+            </ul>
+        </nav>
+        <div id="contact-info">
+            <p>Telefone: (11) 8234-5678</p>
+            <p>Email: <a href="mailto:contato@petshopfeliz.com">contato@petshopfeliz.com</a></p>
+            <p>Endereço: Rua E, 123 - Cidade Pet</p>
+        </div>
+    </header>
+
+    <section id="destaque">
+        <h1>Bem-vindo ao Pet Shop FELIZ!</h1>
+        <img src="bannner12221.jpg" alt="Banner do Pet Shop" />
+        <p><strong>O coração acolhedor do Pet Shop FELIZ, onde nossa paixão por animais floresce e cria laços que duram uma vida inteira.</strong></p>
+
+        <div class="dica">
+            <h2>Dicas para Cuidar do Seu Pet Durante o Verão</h2>
+            <img src="downloadSOL.jpg" alt="Dicas para cuidar do pet" />
+            <h3>Evite passeios nos horários mais quentes</h3>
+            <p>No verão, as temperaturas podem atingir níveis muito altos, o que pode ser perigoso para os pets. Evite passeios nos horários de pico de calor para proteger as patas sensíveis do seu animal.</p>
+        </div>
+        <div class="dica">
+            <h3>Mantenha seu pet hidratado</h3>
+            <p>Ofereça água fresca e limpa ao seu pet com frequência, especialmente nos dias quentes. Certifique-se de que ele tenha acesso constante a água para evitar a desidratação.</p>
+        </div>
+        <div class="dica">
+            <h3>Proteja seu pet do sol</h3>
+            <p>Se o seu pet passa tempo ao ar livre, certifique-se de fornecer áreas de sombra adequadas para ele se abrigar do sol. Considere também o uso de protetor solar específico para pets, principalmente em áreas sensíveis como o nariz e as orelhas.</p>
+        </div>
+
+        <div class="noticia">
+            <h3>Vacine o seu Pet!!!</h3>
+            <p>A vacinação é fundamental para a saúde e o bem-estar dos animais de estimação. Ela ajuda a prevenir doenças graves e a proteger a comunidade. Certifique-se de seguir o cronograma de vacinação recomendado pelo seu veterinário.</p>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+                <li><a href="#" class="footer-link">Termos de Serviço</a></li>
+                <li><a href="#" class="footer-link">Mapa do Site</a></li>
+            </ul>
+        </nav>
+        <div id="social-media">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
